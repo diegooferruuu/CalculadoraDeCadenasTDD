@@ -6,7 +6,11 @@ function calcular_cadena(cadena) {
 
     if (cadena.startsWith("//[")) {
         const coincidencia = cadena.match(/^\/\/\[(.+?)\]\s*(.*)/);
-        delimitadores += `|${coincidencia[1]}`;
+        const delimitadorCrudo = coincidencia[1];
+        
+        const delimitadorEscapado = delimitadorCrudo.replace(/[-\/\\^$*+?.()|[\]{}]/g, '\\$&');
+        
+        delimitadores += `|${delimitadorEscapado}`;
         cadenaDeNumeros = coincidencia[2];
     }
 

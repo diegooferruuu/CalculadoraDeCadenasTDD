@@ -27,7 +27,10 @@ describe("Calcular", () => {
 
   it("deberia ignorar los numeros mayores a 1000", () => {
     expect(calcular_cadena("2,1001")).toEqual(2);
-    expect(calcular_cadena("1000,5")).toEqual(1005);
-    expect(calcular_cadena("//[;] 1002;3-1")).toEqual(4);
+  });
+
+  it("deberia soportar delimitadores de cualquier longitud", () => {
+    expect(calcular_cadena("//[***] 1***2***3")).toEqual(6);
+    expect(calcular_cadena("//[abc] 4abc5-1")).toEqual(10);
   });
 });

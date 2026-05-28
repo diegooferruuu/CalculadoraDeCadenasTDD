@@ -95,12 +95,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "82512b9a8c94ac74540cb4e173df117ad309d804",
     "author": "Diego Ferrufino",
     "commit": {
       "date": "2026-05-28T02:09:48.000Z",
       "message": "Test: Numeros mayores a 1000 ignorados",
-      "url": "https://github.com/diegooferruuu/CalculadoraDeCadenasTDD/commit/HEAD"
+      "url": "https://github.com/diegooferruuu/CalculadoraDeCadenasTDD/commit/82512b9a8c94ac74540cb4e173df117ad309d804"
     },
     "stats": {
       "total": 19,
@@ -110,6 +110,25 @@
     },
     "coverage": 100,
     "test_count": 7,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Diego Ferrufino",
+    "commit": {
+      "date": "2026-05-28T02:11:26.000Z",
+      "message": "Test: Delimitadores de longitud mayor",
+      "url": "https://github.com/diegooferruuu/CalculadoraDeCadenasTDD/commit/HEAD"
+    },
+    "stats": {
+      "total": 13,
+      "additions": 10,
+      "deletions": 3,
+      "date": "2026-05-28"
+    },
+    "coverage": 100,
+    "test_count": 8,
     "failed_tests": 0,
     "conclusion": "success"
   }

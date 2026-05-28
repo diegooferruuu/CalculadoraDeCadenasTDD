@@ -174,9 +174,31 @@
     "testId": 5
   },
   {
-    "commitId": "HEAD",
+    "commitId": "82512b9a8c94ac74540cb4e173df117ad309d804",
     "commitName": "Test: Numeros mayores a 1000 ignorados",
     "commitTimestamp": 1779934188857,
     "testId": 5
+  },
+  {
+    "numPassedTests": 7,
+    "failedTests": 1,
+    "numTotalTests": 8,
+    "timestamp": 1779934255336,
+    "success": false,
+    "testId": 6
+  },
+  {
+    "numPassedTests": 8,
+    "failedTests": 0,
+    "numTotalTests": 8,
+    "timestamp": 1779934270258,
+    "success": true,
+    "testId": 6
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "Test: Delimitadores de longitud mayor",
+    "commitTimestamp": 1779934286684,
+    "testId": 6
   }
 ]
