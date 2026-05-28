@@ -1,16 +1,35 @@
 [
   {
-    "sha": "HEAD",
+    "sha": "67b9ca4e3cda0df99333d8b4a58ed42bd1b69d77",
     "author": "Diego Ferrufino",
     "commit": {
       "date": "2026-05-28T01:50:23.000Z",
       "message": "Prueba deberia dar 0 con una cadena vacia",
-      "url": "https://github.com/diegooferruuu/CalculadoraDeCadenasTDD/commit/HEAD"
+      "url": "https://github.com/diegooferruuu/CalculadoraDeCadenasTDD/commit/67b9ca4e3cda0df99333d8b4a58ed42bd1b69d77"
     },
     "stats": {
       "total": 12,
       "additions": 12,
       "deletions": 0,
+      "date": "2026-05-28"
+    },
+    "coverage": 100,
+    "test_count": 2,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Diego Ferrufino",
+    "commit": {
+      "date": "2026-05-28T01:59:21.000Z",
+      "message": "Test: Deberia devolver el numero que este dentro la cadena",
+      "url": "https://github.com/diegooferruuu/CalculadoraDeCadenasTDD/commit/HEAD"
+    },
+    "stats": {
+      "total": 41,
+      "additions": 10,
+      "deletions": 31,
       "date": "2026-05-28"
     },
     "coverage": 100,

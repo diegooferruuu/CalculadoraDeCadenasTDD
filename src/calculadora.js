@@ -1,5 +1,9 @@
 function calcular_cadena(cadena) {
-    return 0;
+    if (cadena === ""){
+        return 0;
+    }
+    else
+        return Number(cadena);
 }
 
 export default calcular_cadena;
