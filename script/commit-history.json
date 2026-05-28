@@ -114,12 +114,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "907575c43a0f44fcb11dc5b5d8b16b62c129aa87",
     "author": "Diego Ferrufino",
     "commit": {
       "date": "2026-05-28T02:11:26.000Z",
       "message": "Test: Delimitadores de longitud mayor",
-      "url": "https://github.com/diegooferruuu/CalculadoraDeCadenasTDD/commit/HEAD"
+      "url": "https://github.com/diegooferruuu/CalculadoraDeCadenasTDD/commit/907575c43a0f44fcb11dc5b5d8b16b62c129aa87"
     },
     "stats": {
       "total": 13,
@@ -129,6 +129,25 @@
     },
     "coverage": 100,
     "test_count": 8,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Diego Ferrufino",
+    "commit": {
+      "date": "2026-05-28T02:15:01.000Z",
+      "message": "Test: Deberia soportar multiples delimitadores distintos",
+      "url": "https://github.com/diegooferruuu/CalculadoraDeCadenasTDD/commit/HEAD"
+    },
+    "stats": {
+      "total": 22,
+      "additions": 15,
+      "deletions": 7,
+      "date": "2026-05-28"
+    },
+    "coverage": 100,
+    "test_count": 9,
     "failed_tests": 0,
     "conclusion": "success"
   }

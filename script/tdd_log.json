@@ -196,9 +196,39 @@
     "testId": 6
   },
   {
-    "commitId": "HEAD",
+    "commitId": "907575c43a0f44fcb11dc5b5d8b16b62c129aa87",
     "commitName": "Test: Delimitadores de longitud mayor",
     "commitTimestamp": 1779934286684,
     "testId": 6
+  },
+  {
+    "numPassedTests": 8,
+    "failedTests": 1,
+    "numTotalTests": 9,
+    "timestamp": 1779934381965,
+    "success": false,
+    "testId": 7
+  },
+  {
+    "numPassedTests": 8,
+    "failedTests": 1,
+    "numTotalTests": 9,
+    "timestamp": 1779934445185,
+    "success": false,
+    "testId": 7
+  },
+  {
+    "numPassedTests": 9,
+    "failedTests": 0,
+    "numTotalTests": 9,
+    "timestamp": 1779934458911,
+    "success": true,
+    "testId": 7
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "Test: Deberia soportar multiples delimitadores distintos",
+    "commitTimestamp": 1779934501809,
+    "testId": 7
   }
 ]

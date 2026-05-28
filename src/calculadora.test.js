@@ -31,6 +31,10 @@ describe("Calcular", () => {
 
   it("deberia soportar delimitadores de cualquier longitud", () => {
     expect(calcular_cadena("//[***] 1***2***3")).toEqual(6);
-    expect(calcular_cadena("//[abc] 4abc5-1")).toEqual(10);
+  });
+
+  it("deberia soportar multiples delimitadores personalizados", () => {
+    expect(calcular_cadena("//[*][%] 1*2%3,7-9")).toEqual(22);
+    expect(calcular_cadena("//[abc][xyz] 1abc2xyz3")).toEqual(6);
   });
 });

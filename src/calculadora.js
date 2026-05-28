@@ -5,13 +5,17 @@ function calcular_cadena(cadena) {
     let delimitadores = ",|-";
 
     if (cadena.startsWith("//[")) {
-        const coincidencia = cadena.match(/^\/\/\[(.+?)\]\s*(.*)/);
-        const delimitadorCrudo = coincidencia[1];
+        const finCabecera = cadena.lastIndexOf("]") + 1;
+        const cabecera = cadena.substring(0, finCabecera);
+        cadenaDeNumeros = cadena.substring(finCabecera).trim();
+
+        const coincidencias = cabecera.matchAll(/\[(.*?)\]/g);
         
-        const delimitadorEscapado = delimitadorCrudo.replace(/[-\/\\^$*+?.()|[\]{}]/g, '\\$&');
-        
-        delimitadores += `|${delimitadorEscapado}`;
-        cadenaDeNumeros = coincidencia[2];
+        for (const coincidencia of coincidencias) {
+            const delimitadorCrudo = coincidencia[1];
+            const delimitadorEscapado = delimitadorCrudo.replace(/[-\/\\^$*+?.()|[\]{}]/g, '\\$&');
+            delimitadores += `|${delimitadorEscapado}`;
+        }
     }
 
     return cadenaDeNumeros
