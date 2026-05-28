@@ -15,6 +15,10 @@ describe("Calcular", () => {
 
   it("deberia sumar varios numeros separados por coma", () => {
     expect(calcular_cadena("1,2,3")).toEqual(6);
-    expect(calcular_cadena("1,2,4,8")).toEqual(15);
+  });
+
+  it("deberia permitir el guion como separador mixto", () => {
+    expect(calcular_cadena("1-2,3")).toEqual(6);
+    expect(calcular_cadena("4-5-6")).toEqual(15);
   });
 });

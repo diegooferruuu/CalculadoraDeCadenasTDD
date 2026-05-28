@@ -100,9 +100,23 @@
     "testId": 2
   },
   {
-    "commitId": "HEAD",
+    "commitId": "4f74c6856ed252302101383c9197d9265fc8291b",
     "commitName": "Test: Deberia sumar varios numeros sumados por coma",
     "commitTimestamp": 1779933795252,
     "testId": 2
+  },
+  {
+    "numPassedTests": 5,
+    "failedTests": 0,
+    "numTotalTests": 5,
+    "timestamp": 1779933908520,
+    "success": true,
+    "testId": 3
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "Test: Deberia sumar con separadores , y -",
+    "commitTimestamp": 1779933933747,
+    "testId": 3
   }
 ]

@@ -38,12 +38,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "4f74c6856ed252302101383c9197d9265fc8291b",
     "author": "Diego Ferrufino",
     "commit": {
       "date": "2026-05-28T02:03:14.000Z",
       "message": "Test: Deberia sumar varios numeros sumados por coma",
-      "url": "https://github.com/diegooferruuu/CalculadoraDeCadenasTDD/commit/HEAD"
+      "url": "https://github.com/diegooferruuu/CalculadoraDeCadenasTDD/commit/4f74c6856ed252302101383c9197d9265fc8291b"
     },
     "stats": {
       "total": 23,
@@ -53,6 +53,25 @@
     },
     "coverage": 100,
     "test_count": 4,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Diego Ferrufino",
+    "commit": {
+      "date": "2026-05-28T02:05:33.000Z",
+      "message": "Test: Deberia sumar con separadores , y -",
+      "url": "https://github.com/diegooferruuu/CalculadoraDeCadenasTDD/commit/HEAD"
+    },
+    "stats": {
+      "total": 10,
+      "additions": 8,
+      "deletions": 2,
+      "date": "2026-05-28"
+    },
+    "coverage": 100,
+    "test_count": 5,
     "failed_tests": 0,
     "conclusion": "success"
   }
