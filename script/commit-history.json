@@ -1,0 +1,21 @@
+[
+  {
+    "sha": "HEAD",
+    "author": "Diego Ferrufino",
+    "commit": {
+      "date": "2026-05-28T01:50:23.000Z",
+      "message": "Prueba deberia dar 0 con una cadena vacia",
+      "url": "https://github.com/diegooferruuu/CalculadoraDeCadenasTDD/commit/HEAD"
+    },
+    "stats": {
+      "total": 12,
+      "additions": 12,
+      "deletions": 0,
+      "date": "2026-05-28"
+    },
+    "coverage": 100,
+    "test_count": 2,
+    "failed_tests": 0,
+    "conclusion": "success"
+  }
+]
