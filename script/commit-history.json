@@ -19,12 +19,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "7ddf1cc4da44affa211058ea3e276669d8779387",
     "author": "Diego Ferrufino",
     "commit": {
       "date": "2026-05-28T01:59:21.000Z",
       "message": "Test: Deberia devolver el numero que este dentro la cadena",
-      "url": "https://github.com/diegooferruuu/CalculadoraDeCadenasTDD/commit/HEAD"
+      "url": "https://github.com/diegooferruuu/CalculadoraDeCadenasTDD/commit/7ddf1cc4da44affa211058ea3e276669d8779387"
     },
     "stats": {
       "total": 41,
@@ -34,6 +34,25 @@
     },
     "coverage": 100,
     "test_count": 2,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Diego Ferrufino",
+    "commit": {
+      "date": "2026-05-28T02:03:14.000Z",
+      "message": "Test: Deberia sumar varios numeros sumados por coma",
+      "url": "https://github.com/diegooferruuu/CalculadoraDeCadenasTDD/commit/HEAD"
+    },
+    "stats": {
+      "total": 23,
+      "additions": 16,
+      "deletions": 7,
+      "date": "2026-05-28"
+    },
+    "coverage": 100,
+    "test_count": 4,
     "failed_tests": 0,
     "conclusion": "success"
   }

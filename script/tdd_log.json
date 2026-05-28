@@ -78,9 +78,31 @@
     "testId": 1
   },
   {
-    "commitId": "HEAD",
+    "commitId": "7ddf1cc4da44affa211058ea3e276669d8779387",
     "commitName": "Test: Deberia devolver el numero que este dentro la cadena",
     "commitTimestamp": 1779933561953,
     "testId": 1
+  },
+  {
+    "numPassedTests": 3,
+    "failedTests": 0,
+    "numTotalTests": 3,
+    "timestamp": 1779933643131,
+    "success": true,
+    "testId": 2
+  },
+  {
+    "numPassedTests": 4,
+    "failedTests": 0,
+    "numTotalTests": 4,
+    "timestamp": 1779933770574,
+    "success": true,
+    "testId": 2
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "Test: Deberia sumar varios numeros sumados por coma",
+    "commitTimestamp": 1779933795252,
+    "testId": 2
   }
 ]
