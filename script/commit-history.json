@@ -57,12 +57,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "26fb25803d34f6dad73a5f009bc4528f6e8c8408",
     "author": "Diego Ferrufino",
     "commit": {
       "date": "2026-05-28T02:05:33.000Z",
       "message": "Test: Deberia sumar con separadores , y -",
-      "url": "https://github.com/diegooferruuu/CalculadoraDeCadenasTDD/commit/HEAD"
+      "url": "https://github.com/diegooferruuu/CalculadoraDeCadenasTDD/commit/26fb25803d34f6dad73a5f009bc4528f6e8c8408"
     },
     "stats": {
       "total": 10,
@@ -72,6 +72,25 @@
     },
     "coverage": 100,
     "test_count": 5,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Diego Ferrufino",
+    "commit": {
+      "date": "2026-05-28T02:08:34.000Z",
+      "message": "Test: Delimitadores personalizados",
+      "url": "https://github.com/diegooferruuu/CalculadoraDeCadenasTDD/commit/HEAD"
+    },
+    "stats": {
+      "total": 23,
+      "additions": 18,
+      "deletions": 5,
+      "date": "2026-05-28"
+    },
+    "coverage": 100,
+    "test_count": 6,
     "failed_tests": 0,
     "conclusion": "success"
   }

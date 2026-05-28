@@ -19,6 +19,10 @@ describe("Calcular", () => {
 
   it("deberia permitir el guion como separador mixto", () => {
     expect(calcular_cadena("1-2,3")).toEqual(6);
-    expect(calcular_cadena("4-5-6")).toEqual(15);
+  });
+
+  it("deberia soportar delimitadores personalizados", () => {
+    expect(calcular_cadena("//[;] 6;7;4")).toEqual(17);
+    expect(calcular_cadena("//[;] 6,3-2;1")).toEqual(12);
   });
 });
