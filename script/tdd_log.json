@@ -152,9 +152,31 @@
     "testId": 4
   },
   {
-    "commitId": "HEAD",
+    "commitId": "eba66023a01fcaa3e234aecacf89e6c77defe04a",
     "commitName": "Test: Delimitadores personalizados",
     "commitTimestamp": 1779934114687,
     "testId": 4
+  },
+  {
+    "numPassedTests": 6,
+    "failedTests": 1,
+    "numTotalTests": 7,
+    "timestamp": 1779934155053,
+    "success": false,
+    "testId": 5
+  },
+  {
+    "numPassedTests": 7,
+    "failedTests": 0,
+    "numTotalTests": 7,
+    "timestamp": 1779934172060,
+    "success": true,
+    "testId": 5
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "Test: Numeros mayores a 1000 ignorados",
+    "commitTimestamp": 1779934188857,
+    "testId": 5
   }
 ]

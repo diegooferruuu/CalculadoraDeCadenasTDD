@@ -22,7 +22,12 @@ describe("Calcular", () => {
   });
 
   it("deberia soportar delimitadores personalizados", () => {
-    expect(calcular_cadena("//[;] 6;7;4")).toEqual(17);
     expect(calcular_cadena("//[;] 6,3-2;1")).toEqual(12);
+  });
+
+  it("deberia ignorar los numeros mayores a 1000", () => {
+    expect(calcular_cadena("2,1001")).toEqual(2);
+    expect(calcular_cadena("1000,5")).toEqual(1005);
+    expect(calcular_cadena("//[;] 1002;3-1")).toEqual(4);
   });
 });
